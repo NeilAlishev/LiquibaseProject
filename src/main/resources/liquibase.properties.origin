@@ -1,0 +1,5 @@
+# Datasource properties
+driver=org.postgresql.Driver
+url=
+username=
+password=

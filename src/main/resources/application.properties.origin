@@ -1,0 +1,14 @@
+# DB configuration
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.platform=postgresql
+
+# We use Liquibase for DB management
+spring.datasource.initialization-mode=never
+spring.jpa.hibernate.ddl-auto=none
+
+# We manually run migrations using Maven profiles
+spring.liquibase.enabled=false
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
